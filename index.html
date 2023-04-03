@@ -158,48 +158,57 @@
         </article>
     </section>
 
-    <section class="section-with-bg-image center services services_news">
-        <h2 class="subtitle">
-            Последние статьи
-        </h2>
-        <article class="services__item">
-            <img class="services__img" src="img/news-1.jpg" alt="Жить, а не бояться: как справляться с канцерофобией">
-            <h3 class="services__title">
-                Жить, а не бояться: как справляться с канцерофобией
-            </h3>
-        </article>
-        <article class="services__item">
-            <img class="services__img" src="img/news-2.jpg" alt="Брат мой, враг мой: почему враждуют братья и сестры?">
-            <h3 class="services__title">
-                Брат мой, враг мой: почему враждуют братья и сестры?
-            </h3>
-        </article>
-        <article class="services__item">
-            <img class="services__img" src="img/news-3.jpg" alt="8 советов, как оставаться продуктивным и не сойти с ума">
-            <h3 class="services__title">
-                8 советов, как оставаться продуктивным и не сойти с ума
-            </h3>
-        </article>
-    </section>
+    <section class="center about section-with-bg-image">
+      <div class="about__left-side">
+          <h2 class="about__title">
+              Немного обо мне
+          </h2>
+          <p class="about__text">
+              Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они
+              в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране
+              и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены
+              предложения залетают прямо.
+          </p>
+          <div class="about__button">
+              <button class="btn btn_bordered">
+                  Задать вопрос
+              </button>
+              <button class="btn">
+                  Хочу консультацию
+              </button>
+          </div>
+      </div>
+      <img class="about__photo" src="img/about-photo.jpg" alt="my photo">
+  </section>
 
-    <form class="center contact-form">
-        <h2 class="subtitle">
-            Записаться на прием
-        </h2>
-        <input type="text" class="contact-form__input">
-        <input type="text" class="contact-form__input">
-        <input type="text" class="contact-form__input">
-        <textarea class="contact-form__input contact-form__input_textarea"></textarea>
+  <form class="center contact-form">
+      <h2 class="subtitle">
+          Записаться на прием
+      </h2>
+      <input type="text" class="contact-form__input" placeholder="Ваше имя *" required>
+      <input type="tel" class="contact-form__input" placeholder="Ваш телефон *" required>
+      <label class="contact-form__input contact-form__selection">
+          <select name="meeting" class="contact-form__selection-list" required>
+              <option value="theme">Тема встречи *</option>
+              <option value="value1">Value 1</option>
+              <option value="value2">Value 2</option>
+              <option value="value3">Value 3</option>
+          </select>
+      </label>
+      
+      <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
+          
+          <label class="contact-form__checkbox">
+              <input type="checkbox" class="contact-form__checkbox-input visually-hidden" required value="agree with policy">
+              <span class="contact-form__checkbox-label">
+                  Я согласен с политикой конфиденциальности
+              </span>
+          </label>
 
-        <label class="contact-form__checkbox">
-            <input type="checkbox">
-            Я согласен с политикой конфиденциальности
-        </label>
-
-        <button class="btn" type="submit">
-            Отправить
-        </button>
-    </form>
+      <button class="btn" type="submit">
+          Отправить
+      </button>
+  </form>
 </main>
 
 <footer class="footer center">
