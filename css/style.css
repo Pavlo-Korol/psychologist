@@ -315,6 +315,32 @@ img {
 }
 /*contact-form*/
 
+/* contact-form promo */
+.contact-form-promo {
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: 1fr 40px 30px;
+    padding-left: 153px;
+    padding-right: 153px;
+}
+
+.contact-form-promo .subtitle {
+    grid-column: 1 / 4;
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+
+.contact-form-promo .btn {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    max-width: 370px; 
+}
+
+.contact-form-promo .contact-form__checkbox {
+    margin: -5px 0 0 0;
+}
+
+/* contact-form promo */
+
 /*services*/
     .services {
         display: grid;

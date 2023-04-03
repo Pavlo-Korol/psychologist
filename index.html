@@ -123,6 +123,35 @@
       <img class="about__photo" src="img/about-photo.jpg" alt="my photo">
   </section>
 
+  <form class="center contact-form">
+    <h2 class="subtitle">
+        Записаться на прием
+    </h2>
+    <input type="text" class="contact-form__input" placeholder="Ваше имя *" required>
+    <input type="tel" class="contact-form__input" placeholder="Ваш телефон *" required>
+    <label class="contact-form__input contact-form__selection">
+        <select name="meeting" class="contact-form__selection-list" required>
+            <option value="theme">Тема встречи *</option>
+            <option value="value1">Value 1</option>
+            <option value="value2">Value 2</option>
+            <option value="value3">Value 3</option>
+        </select>
+    </label>
+    
+    <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
+        
+        <label class="contact-form__checkbox">
+            <input type="checkbox" class="contact-form__checkbox-input visually-hidden" required value="agree with policy">
+            <span class="contact-form__checkbox-label">
+                Я согласен с политикой конфиденциальности
+            </span>
+        </label>
+
+    <button class="btn" type="submit">
+        Отправить
+    </button>
+</form>
+
     <section class="center services services_counter section-with-bg-image">
         <article class="services__item">
             <p class="services__number">
@@ -158,57 +187,26 @@
         </article>
     </section>
 
-    <section class="center about section-with-bg-image">
-      <div class="about__left-side">
-          <h2 class="about__title">
-              Немного обо мне
-          </h2>
-          <p class="about__text">
-              Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они
-              в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране
-              и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены
-              предложения залетают прямо.
-          </p>
-          <div class="about__button">
-              <button class="btn btn_bordered">
-                  Задать вопрос
-              </button>
-              <button class="btn">
-                  Хочу консультацию
-              </button>
-          </div>
-      </div>
-      <img class="about__photo" src="img/about-photo.jpg" alt="my photo">
-  </section>
-
-  <form class="center contact-form">
+    <section class="contact-form contact-form-promo">
       <h2 class="subtitle">
           Записаться на прием
       </h2>
       <input type="text" class="contact-form__input" placeholder="Ваше имя *" required>
       <input type="tel" class="contact-form__input" placeholder="Ваш телефон *" required>
-      <label class="contact-form__input contact-form__selection">
-          <select name="meeting" class="contact-form__selection-list" required>
-              <option value="theme">Тема встречи *</option>
-              <option value="value1">Value 1</option>
-              <option value="value2">Value 2</option>
-              <option value="value3">Value 3</option>
-          </select>
-      </label>
-      
-      <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
-          
-          <label class="contact-form__checkbox">
-              <input type="checkbox" class="contact-form__checkbox-input visually-hidden" required value="agree with policy">
-              <span class="contact-form__checkbox-label">
-                  Я согласен с политикой конфиденциальности
-              </span>
-          </label>
-
       <button class="btn" type="submit">
-          Отправить
+          Записаться со скидкой
       </button>
-  </form>
+
+      <label class="contact-form__checkbox">
+          <input type="checkbox" class="contact-form__checkbox-input visually-hidden" required value="agree with policy">
+          <span class="contact-form__checkbox-label">
+              Я согласен с политикой конфиденциальности
+          </span>
+      </label>
+  </section>
+
+
+
 </main>
 
 <footer class="footer center">
