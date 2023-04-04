@@ -24,24 +24,123 @@
     }
 
     .contacts-list {
-        gap: 20px;
+        flex-wrap: wrap;
     }
 
-    .contacts-list__link {
-        font-size: 12px;
-        gap: 5px;
-    }
+
 
 }
 
 @media screen and (max-width:900px) {
 
+    .offer__title{
+        font-size: 26px;
+        max-width: 250px;
+    }
+    
+    .offer__desc{
+        font-size: 20px;
+    }
+
     .services{
         grid-template-columns: repeat(3, 250px);
     }
 
+    .services__number{
+        font-size: 30px;
+    }
+
+    .services__icon{
+        margin-bottom: 10px;
+    }
+
     .center {
         max-width: 690px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about{
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about__photo {
+        width: 495px;
+        min-height: 330px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    
+    .about__button{
+        justify-content: center;
+        padding-bottom: 1px;
+    }
+
+    .about__text {
+        font-size: 14px;
+    }
+
+    .about__title{
+        font-size: 26px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 2px 4px;
+    }
+
+    .services__desc {
+        font-size: 12px;
+        
+    }
+
+    .services__title{
+        margin-bottom: 10px;
+    }
+
+    .contact-form-promo {
+        grid-template-columns: repeat(3, 190px);
+    }
+
+    .contacts-list {
+        flex-wrap: wrap;
+    }
+
+
+    
+
+    
+}
+@media screen and (max-width:768px) {
+
+    .offer__title{
+        font-size: 26px;
+        max-width: 250px;
+    }
+    
+    .offer__desc{
+        font-size: 20px;
+    }
+
+    .services{
+        grid-template-columns: repeat(3, 250px);
+    }
+
+    .services__number{
+        font-size: 30px;
+    }
+
+    .services__icon{
+        margin-bottom: 10px;
+    }
+
+    .center {
+        max-width: 500px;
         width: 100%;
         margin: 0 auto;
     }
@@ -65,19 +164,26 @@
         
     }
 
+    .services__title{
+        margin-bottom: 10px;
+    }
+
     .contact-form-promo {
         grid-template-columns: repeat(3, 190px);
     }
 
     .contacts-list {
-        gap: 10px;
-        
+        flex-wrap: wrap;
     }
 
-    .contacts-list__link {
-        font-size: 12px;
-        gap: 2px;
+    .about__photo {
+        width: 200px;
+        min-height: 130px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
+    
+
 
     
 }
