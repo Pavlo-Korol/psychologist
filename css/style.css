@@ -225,8 +225,6 @@ img {
     grid-template-rows: auto repeat(3, 40px) 30px 40px;
     gap: 30px;
     justify-content: center;
-    padding-left: calc(50vw - 385px);
-    padding-right: calc(50vw - 385px);
     padding-top: 60px;
     padding-bottom: 60px;
 }

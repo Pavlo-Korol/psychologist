@@ -273,13 +273,24 @@
 
     .contact-form__input{
         grid-column: 1 / 4;
+        
+    }
+
+    .adaptive-mobile{
+        padding: 20px 20.6px;
     }
 
     .contact-form__input.contact-form__input_textarea {
         grid-row: 5 / 5;
-        grid-column: 1 / 5;
+        grid-column: 1 / 4;
         resize: none;
     }
+
+    .contact-form__input_textarea {
+        height: 60px;
+    }
+
+    .conta
 
     .contacts-list {
         flex-wrap: wrap;
